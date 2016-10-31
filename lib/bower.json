@@ -1,0 +1,17 @@
+{
+  "name": "lib",
+  "description": "",
+  "main": "Gruntfile.js",
+  "license": "ISC",
+  "homepage": "https://github.com/sward42/jquery-todo",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.1"
+  }
+}

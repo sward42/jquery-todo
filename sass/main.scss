@@ -1,0 +1,40 @@
+
+body {
+	text-align: center;
+}
+
+.search-bar {
+	width: 50%;
+	background-color: #6CB359;
+	text-align: center;
+}
+
+.tasks {
+	text-align: left;
+	padding-left: 10px;
+}
+
+.edit {
+	margin-left: 5px;
+}
+
+#list-container {
+	align: center;
+	margin: 2%;	
+}
+
+.todo {
+	display: none;
+}
+
+.btn {
+	margin-right: 2px;
+}
+
+.text-edit {
+	display: none;
+}
+
+.save {
+	display: none;
+}
