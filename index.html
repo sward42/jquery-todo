@@ -10,18 +10,30 @@
 	<link rel="stylesheet" href="styles/main.css">
 </head>
 <body>
-	
-<h1>Jquery To Do List</h1>
 
+
+<div class="container col-xs-4 col-xs-offset-4" id="login-container">
+        <h1 class="form-signin-heading">To Do App</h1>
+        <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+        <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+        <input type="text" id="inputUsername" class="form-control" placeholder="Username" required>
+        <button class="btn btn-lg btn-success col-xs-6" id="loginButton">Login</button>
+        <button class="btn btn-lg btn-primary col-xs-6" id="registerButton">Register</button>
+    </div>
+	
+
+	
+<div id="list-container" class="hide">
+<h1>To Do List</h1>
+<div id="logout-container"></div>
+  <!--  class="row" -->
 <div class="panel panel-default search-bar col-xs-offset-3">
 	<div class="panel-body">
 	    <input  type="text" id="task-input" placeholder="Create New Task">
 	    <button type="button" class="btn btn-primary btn-md" id="create-button">Create</button>
   	</div>
 </div>  	
-	
-<div id="list-container" class="row">
-	<div  class="col-md-6">
+	<!-- <div  class="col-md-6">
 		<div id ="todo-list" class="panel panel-default">
 		    <div class="panel-heading">
 		        <h3 class="panel-title">To Do:</h3>
@@ -41,7 +53,13 @@
 		  	
 		</div>
 
-	</div>
+	</div> -->
+
+	<h3>To Do:</h3>
+	<ul id="incomplete-tasks"></ul>
+
+	<h3>Completed:</h3>
+	<ul id="completed-tasks"></ul>
 	
 </div>
 
@@ -57,7 +75,10 @@
   crossorigin="anonymous"></script>
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
+<script type="text/javascript" src="javascripts/firebase.js"></script>
+<script type="text/javascript" src="javascripts/firebaseMethods.js"></script>
+<script type="text/javascript" src="javascripts/firebaseAuth.js"></script>
+<script type="text/javascript" src="javascripts/firebaseUser.js"></script>
 <script type="text/javascript" src="javascripts/main.js"></script>
 </body>
 

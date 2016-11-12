@@ -2,15 +2,28 @@
 	"items": {
 		"item0": {
 			"task": "mow the lawn",
-			"isCompleted": true
+			"isCompleted": true,
+			"uid":"p78jsBxBzbcHelntLKy0gBhwbqG2"
 		},
 		"item1": {
 			"task": "eat chips",
-			"isCompleted": false
+			"isCompleted": false,
+			"uid":"p78jsBxBzbcHelntLKy0gBhwbqG2"
 		},
 		"item2": {
 			"task": "take a nap",
-			"isCompleted": false
+			"isCompleted": false,
+			"uid":"Sl4rLbflbkZS6JOrQbm6mzQ07C72"
+		}
+	},
+	"users": {
+		"user1":{
+			"username": "s",
+			"uid": "p78jsBxBzbcHelntLKy0gBhwbqG2"
+		},
+		"user2": {
+			"username": "a",
+			"uid":"Sl4rLbflbkZS6JOrQbm6mzQ07C72"
 		}
 	}
 
